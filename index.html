@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signupForm">
+        <h2>Register</h2>
+        <div class="form-control">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter valid Email Id" id="email" required>
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Re-enter your Password" required>
+            <small></small>
+        </div>
+         <div id="successMessage" class="success-message"></div>
+        <button type="submit">SIGN UP</button>
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
